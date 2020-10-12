@@ -50,11 +50,11 @@ npm run build
 ## 用法（改进中）
 
 #### 第一步
-`gulp build`后`dist`文件夹下的bundle.js复制到项目目录，bundle.js即为项目核心代码
+`gulp build`后`dist`文件夹下的luckyexcel.js复制到项目目录，luckyexcel.js即为项目核心代码
 
 #### 第二步
 
-导入bundle.js,界面上指定一个文件上传组件，编写类似如下的监听方法，调用`LuckyExcel.transformExcelToLucky`，然后在回调中获取到转换后的JSON数据，此JSON数据即是Luckysheet可识别的格式，使用Luckysheet初始化即可。
+导入luckyexcel.js,界面上指定一个文件上传组件，编写类似如下的监听方法，调用`LuckyExcel.transformExcelToLucky`，然后在回调中获取到转换后的JSON数据，此JSON数据即是Luckysheet可识别的格式，使用Luckysheet初始化即可。
 ```js
 function demoHandler(){
     let upload = document.getElementById("Luckyexcel-demo-file");

@@ -2,7 +2,7 @@
   "name": "gulp-ts",
   "version": "1.0.0",
   "description": "",
-  "main": "./dist/main.js",
+  "main": "./dist/luckyexcel.js",
   "scripts": {
     "build": "gulp build",
     "dev": "gulp dev",

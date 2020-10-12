@@ -74,3 +74,8 @@ export class LuckyExcel{
 
 
 
+
+declare global {
+    interface Window { LuckyExcel: any; }
+}
+window.LuckyExcel = LuckyExcel;
